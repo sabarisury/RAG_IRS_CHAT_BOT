@@ -1,0 +1,122 @@
+[
+  {
+    "question": "What is the standard deduction for a single filer in 2026?",
+    "expected_keywords": ["standard deduction", "single"],
+    "expected_source": "tax_brackets_2026.csv",
+    "reference_answer": "The 2026 standard deduction amount for a single filer."
+  },
+  {
+    "question": "What marginal tax bracket does $90,000 fall in for married filing jointly in 2026?",
+    "expected_keywords": ["marginal", "bracket", "married filing jointly"],
+    "expected_source": "tax_brackets_2026.csv",
+    "reference_answer": "The marginal tax bracket for $90,000 of taxable income, married filing jointly, 2026."
+  },
+  {
+    "question": "What is the standard deduction for married filing jointly in 2026?",
+    "expected_keywords": ["standard deduction", "married filing jointly"],
+    "expected_source": "tax_brackets_2026.csv",
+    "reference_answer": "The 2026 standard deduction for married filing jointly."
+  },
+  {
+    "question": "If I earn $50,000 as head of household, what's my marginal rate in 2026?",
+    "expected_keywords": ["marginal", "head of household"],
+    "expected_source": "tax_brackets_2026.csv",
+    "reference_answer": "The marginal tax rate for $50,000 income, head of household, 2026."
+  },
+  {
+    "question": "What marginal rate applies to a single filer making $200,000 in 2026?",
+    "expected_keywords": ["marginal", "single"],
+    "expected_source": "tax_brackets_2026.csv",
+    "reference_answer": "The marginal tax rate for $200,000 income, single filer, 2026."
+  },
+  {
+    "question": "How many income tax returns were filed in 2015?",
+    "expected_keywords": ["2015", "returns"],
+    "expected_source": "IRS_SOI_Historical_Individual_Income_Tax_Table.xls",
+    "reference_answer": "The number of individual income tax returns filed in 2015."
+  },
+  {
+    "question": "What was the number of all returns filed in 2010?",
+    "expected_keywords": ["2010", "returns"],
+    "expected_source": "IRS_SOI_Historical_Individual_Income_Tax_Table.xls",
+    "reference_answer": "The number of all individual income tax returns filed in 2010."
+  },
+  {
+    "question": "How many returns were electronically filed in 2018?",
+    "expected_keywords": ["2018", "returns"],
+    "expected_source": "IRS_SOI_Historical_Individual_Income_Tax_Table.xls",
+    "reference_answer": "The number of electronically filed returns in 2018."
+  },
+  {
+    "question": "Who qualifies to file as head of household?",
+    "expected_keywords": ["head of household"],
+    "expected_source": "IRS_Publication501.pdf",
+    "reference_answer": "The eligibility requirements for the head of household filing status."
+  },
+  {
+    "question": "What are the requirements to claim someone as a dependent?",
+    "expected_keywords": ["dependent"],
+    "expected_source": "IRS_Publication501.pdf",
+    "reference_answer": "The tests a person must meet to be claimed as a dependent."
+  },
+  {
+    "question": "Can I claim my parent as a dependent?",
+    "expected_keywords": ["parent", "dependent"],
+    "expected_source": "IRS_Publication501.pdf",
+    "reference_answer": "The rules for claiming a parent as a dependent."
+  },
+  {
+    "question": "What filing statuses are available for individual taxpayers?",
+    "expected_keywords": ["filing status"],
+    "expected_source": "IRS_Publication501.pdf",
+    "reference_answer": "The available individual filing statuses."
+  },
+  {
+    "question": "What types of income are taxable?",
+    "expected_keywords": ["income", "taxable"],
+    "expected_source": "IRS_Publication17.pdf",
+    "reference_answer": "The categories of income that are taxable."
+  },
+  {
+    "question": "What is the difference between a tax credit and a tax deduction?",
+    "expected_keywords": ["credit", "deduction"],
+    "expected_source": "IRS_Publication17.pdf",
+    "reference_answer": "How a tax credit differs from a tax deduction."
+  },
+  {
+    "question": "What expenses can be itemized as deductions?",
+    "expected_keywords": ["itemized", "deduction"],
+    "expected_source": "IRS_Publication17.pdf",
+    "reference_answer": "The categories of expenses that can be itemized."
+  },
+  {
+    "question": "How do I report interest and dividend income?",
+    "expected_keywords": ["interest", "dividend"],
+    "expected_source": "IRS_Publication17.pdf",
+    "reference_answer": "How to report interest and dividend income."
+  },
+  {
+    "question": "How does an employer calculate federal income tax withholding?",
+    "expected_keywords": ["withholding"],
+    "expected_source": "IRS_Publication15T.pdf",
+    "reference_answer": "How employers figure federal income tax withholding."
+  },
+  {
+    "question": "What is the percentage method for figuring withholding?",
+    "expected_keywords": ["percentage method", "withholding"],
+    "expected_source": "IRS_Publication15T.pdf",
+    "reference_answer": "The percentage method used to figure withholding."
+  },
+  {
+    "question": "How does the information on Form W-4 affect withholding?",
+    "expected_keywords": ["W-4", "withholding"],
+    "expected_source": "IRS_Publication15T.pdf",
+    "reference_answer": "How Form W-4 entries affect the amount withheld."
+  },
+  {
+    "question": "Is there an additional standard deduction for taxpayers over 65?",
+    "expected_keywords": ["standard deduction", "65"],
+    "expected_source": "IRS_Publication501.pdf",
+    "reference_answer": "The additional standard deduction available to taxpayers age 65 or older."
+  }
+]

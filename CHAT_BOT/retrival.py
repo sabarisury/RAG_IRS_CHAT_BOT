@@ -424,7 +424,7 @@ def sqlite_historical_answer(query, db_path=DB_PATH):
     return {
         "answer": f"In {tax_year}, {label} was {value_text}.",
         "source": "SQLite",
-        "source_filename": _source_file(table),
+        "document_number": _source_file(table),
         "metadata": {"table": table, "tax_year": tax_year, "item": label},
     }
 
@@ -456,9 +456,7 @@ def answer_question(query, store=None, top_k=5):
         answers.append({
             "answer": hit["text"],
             "source": "PDF",
-            "source_filename": _source_filename(
-                metadata.get("source") or _pdf_document(current_store)
-            ),
+            "document_number": metadata.get("source") or _pdf_document(current_store),
             "chunk_index": metadata.get("chunk_index", "unknown"),
             "metadata": metadata,
         })
@@ -477,7 +475,7 @@ def print_answers(query, answers):
         clean_text = result["answer"][:1000].replace("\n", " ")
         print(f"\n[{index}] Answer: {clean_text}")
         print(f"    Source: {result['source']}")
-        print(f"    Source filename: {result['source_filename']}")
+        print(f"    Document: {result['document_number']}")
         if "chunk_index" in result:
             print(f"    Chunk index: {result['chunk_index']}")
 

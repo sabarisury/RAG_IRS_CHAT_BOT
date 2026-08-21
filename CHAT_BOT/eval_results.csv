@@ -1,0 +1,21 @@
+question,hit@k,reciprocal_rank,keyword_recall,top_source,answer_preview,answer_accurate
+What is the standard deduction for a single filer in 2026?,0.0,0.0,1.0,(none),"For 2026 single, the standard deduction is $16,100.",1.0
+"What marginal tax bracket does $90,000 fall in for married filing jointly in 2026?",0.0,0.0,1.0,(none),"For 2026 married filing jointly, taxable income of $90,000 falls in the 12% marginal tax bracket (up to $100,800). The s",1.0
+What is the standard deduction for married filing jointly in 2026?,0.0,0.0,1.0,(none),"For 2026 married filing jointly, the standard deduction is $32,200.",1.0
+"If I earn $50,000 as head of household, what's my marginal rate in 2026?",0.0,0.0,1.0,(none),"For 2026 head of household, taxable income of $50,000 falls in the 12% marginal tax bracket (up to $67,450). The standar",1.0
+"What marginal rate applies to a single filer making $200,000 in 2026?",0.0,0.0,1.0,(none),"For 2026 single, taxable income of $200,000 falls in the 24% marginal tax bracket (up to $201,775). The standard deducti",1.0
+How many income tax returns were filed in 2015?,1.0,1.0,1.0,IRS_SOI_Historical_Individual_Income_Tax_Table.xls,"In 2015, All returns was 150,493,263.",1.0
+What was the number of all returns filed in 2010?,1.0,1.0,1.0,IRS_SOI_Historical_Individual_Income_Tax_Table.xls,"In 2010, All returns was 142,892,051.",1.0
+How many returns were electronically filed in 2018?,1.0,1.0,1.0,IRS_SOI_Historical_Individual_Income_Tax_Table.xls,"In 2018, Electronically filed returns was 137,645,234.",1.0
+Who qualifies to file as head of household?,1.0,0.3333333333333333,0.0,IRS_Publication17.pdf,"Special  rule  for  parent. If  your  qualifying person is your parent, you may be eligible to file as head  of househol",0.0
+What are the requirements to claim someone as a dependent?,1.0,1.0,1.0,IRS_Publication501.pdf,"The term 'dependent' means: - A qualifying relative. - A qualifying child, or The terms ' qualifying child ' and ' quali",1.0
+Can I claim my parent as a dependent?,1.0,1.0,1.0,IRS_Publication501.pdf,"Sometimes no one provides more than half  of the  support  of  a  person.  Instead,  two  or  more persons, each of whom",1.0
+What filing statuses are available for individual taxpayers?,1.0,1.0,1.0,IRS_Publication501.pdf,"Who must file. In some cases, the amount of income you can receive before you must file a tax return has increased. Tabl",1.0
+What types of income are taxable?,1.0,1.0,1.0,IRS_Publication17.pdf,This chapter discusses the following topics. - Different types of interest income. - What interest is taxable and what i,1.0
+What is the difference between a tax credit and a tax deduction?,1.0,1.0,1.0,IRS_Publication17.pdf,"Generally, you can take either a deduction or a credit for income taxes imposed on you by a foreign  country  or  a  U.S",1.0
+What expenses can be itemized as deductions?,1.0,1.0,1.0,IRS_Publication17.pdf,"This  chapter  explains  that  you  can  no  longer claim  any  miscellaneous  itemized  deductions, unless you fall int",1.0
+How do I report interest and dividend income?,1.0,1.0,1.0,IRS_Publication17.pdf,"Taxable  interest  includes  interest  you  receive from bank accounts, loans you make to others, and  other  sources.  ",1.0
+How does an employer calculate federal income tax withholding?,0.0,0.0,1.0,IRS_Publication17.pdf,"This chapter discusses how to pay your tax as you earn or receive income during the year. In general, the federal income",1.0
+What is the percentage method for figuring withholding?,0.0,0.0,0.5,IRS_Publication17.pdf,The tips you receive while working on your job are  considered  part  of  your  pay.  You  must  include your tips on yo,1.0
+How does the information on Form W-4 affect withholding?,0.0,0.0,1.0,IRS_Publication17.pdf,It  may  be  helpful  for  you  to  know  some  of  the withholding  rules  your  employer  must  follow. These rules ca,1.0
+Is there an additional standard deduction for taxpayers over 65?,1.0,0.5,1.0,IRS_Publication17.pdf,Standard  deduction  increased. The  standard  deduction  for  taxpayers  who  don't  itemize their  deductions  on  Sch,1.0

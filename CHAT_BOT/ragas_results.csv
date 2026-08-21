@@ -1,0 +1,16 @@
+user_input,retrieved_contexts,response,reference,faithfulness,answer_relevancy,llm_context_precision_with_reference,context_recall
+What is the standard deduction for a single filer in 2026?,"['For 2026 single, the standard deduction is $16,100.']","The standard deduction for a single filer in 2026 is $16,100. 
+
+(Source: tax_brackets_2026.csv)",The 2026 standard deduction amount for a single filer.,0.5,0.9999999999999998,0.9999999999,1.0
+"What marginal tax bracket does $90,000 fall in for married filing jointly in 2026?","['For 2026 married filing jointly, taxable income of $90,000 falls in the 12% marginal tax bracket (up to $100,800). The standard deduction is $32,200.']","For 2026, a taxable income of $90,000 for married filing jointly falls in the 12% marginal tax bracket (which applies to incomes up to $100,800). 
+
+Source: tax_brackets_2026.csv","The marginal tax bracket for $90,000 of taxable income, married filing jointly, 2026.",1.0,0.9643644140434735,0.9999999999,1.0
+What is the standard deduction for married filing jointly in 2026?,"['For 2026 married filing jointly, the standard deduction is $32,200.']","The standard deduction for married filing jointly in 2026 is $32,200. 
+
+(Source: tax_brackets_2026.csv)",The 2026 standard deduction for married filing jointly.,0.5,0.9999999999999999,0.9999999999,1.0
+"If I earn $50,000 as head of household, what's my marginal rate in 2026?","['For 2026 head of household, taxable income of $50,000 falls in the 12% marginal tax bracket (up to $67,450). The standard deduction is $24,150.']","If you earn $50,000 as head of household in 2026, your marginal tax rate would be 12%. This rate applies to taxable income up to $67,450. 
+
+Source: tax_brackets_2026.csv","The marginal tax rate for $50,000 income, head of household, 2026.",1.0,0.8867515242408786,0.9999999999,1.0
+"What marginal rate applies to a single filer making $200,000 in 2026?","['For 2026 single, taxable income of $200,000 falls in the 24% marginal tax bracket (up to $201,775). The standard deduction is $16,100.']","For a single filer making $200,000 in 2026, the marginal tax rate that applies is 24%. This rate applies to taxable income up to $201,775. Additionally, the standard deduction for that year is $16,100. 
+
+Source: tax_brackets_2026.csv","The marginal tax rate for $200,000 income, single filer, 2026.",1.0,0.9134572964297111,0.9999999999,1.0
